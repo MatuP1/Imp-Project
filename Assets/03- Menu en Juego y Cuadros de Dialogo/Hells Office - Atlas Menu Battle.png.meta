@@ -1,7 +1,76 @@
 fileFormatVersion: 2
 guid: f774b371ed01836499536c935aefc07e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1481845515074092424
+    second: Battle square
+  - first:
+      213: -4092559525205474664
+    second: short pants icon left
+  - first:
+      213: -3778791940525769313
+    second: life icon
+  - first:
+      213: 6919829427374467131
+    second: Hells Office - Atlas Menu Battle_3
+  - first:
+      213: 5183754197858032169
+    second: attack selected
+  - first:
+      213: 6260046040579531926
+    second: mana icon
+  - first:
+      213: 8060379021916025239
+    second: Hells Office - Atlas Menu Battle_6
+  - first:
+      213: 1480333887516464523
+    second: short pants turn icon
+  - first:
+      213: -7290712922614898407
+    second: long pants icon right
+  - first:
+      213: -7891683445737928346
+    second: defend unselected
+  - first:
+      213: 8575820398434540
+    second: attack unselected
+  - first:
+      213: -7119520551500163435
+    second: special unselected
+  - first:
+      213: 7978637585760274552
+    second: items unselected
+  - first:
+      213: 4351471629589171417
+    second: special selected
+  - first:
+      213: 8981446830066594751
+    second: defend selected
+  - first:
+      213: 6778499573310669417
+    second: items selected
+  - first:
+      213: -2436385226058300999
+    second: Hells Office - Atlas Menu Battle_16
+  - first:
+      213: -4779575202700442495
+    second: Hells Office - Atlas Menu Battle_17
+  - first:
+      213: -4750889746067094072
+    second: Hells Office - Atlas Menu Battle_18
+  - first:
+      213: 4883359284243627991
+    second: Hells Office - Atlas Menu Battle_19
+  - first:
+      213: 4987581792406910093
+    second: Hells Office - Atlas Menu Battle_20
+  - first:
+      213: -3924318290214954922
+    second: Hells Office - Atlas Menu Battle_21
+  - first:
+      213: 1043348878351407523
+    second: long pants turn icon
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +101,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +110,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -68,7 +137,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +158,364 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Battle square
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 152
+        width: 242
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872c00eea5d6f6be0800000000000000
+      internalID: -1481845515074092424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: short pants icon left
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 135
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8928cfd8bce4437c0800000000000000
+      internalID: -4092559525205474664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: life icon
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 143
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d3ad040c80f8bc0800000000000000
+      internalID: -3778791940525769313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hells Office - Atlas Menu Battle_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 143
+        width: 64
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3823fc833c280060800000000000000
+      internalID: 6919829427374467131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack selected
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 101
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a944e6af460f740800000000000000
+      internalID: 5183754197858032169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mana icon
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 134
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694655ee4b620e650800000000000000
+      internalID: 6260046040579531926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hells Office - Atlas Menu Battle_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 135
+        width: 64
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791b054c3083cdf60800000000000000
+      internalID: 8060379021916025239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: short pants turn icon
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 103
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85546ad3d33b8410800000000000000
+      internalID: 1480333887516464523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: long pants icon right
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 112
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9116038893f22da90800000000000000
+      internalID: -7290712922614898407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defend unselected
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 118
+        width: 45
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669c5f0d7bb1b7290800000000000000
+      internalID: -7891683445737928346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack unselected
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 140
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce89188c9a77e1000800000000000000
+      internalID: 8575820398434540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special unselected
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 139
+        width: 43
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5965dbc77c1623d90800000000000000
+      internalID: -7119520551500163435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items unselected
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 118
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87842d29c90d9be60800000000000000
+      internalID: 7978637585760274552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special selected
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 101
+        width: 46
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc4adb5468836c30800000000000000
+      internalID: 4351471629589171417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defend selected
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 79
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb37d236e4284ac70800000000000000
+      internalID: 8981446830066594751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items selected
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 79
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962c159a271121e50800000000000000
+      internalID: 6778499573310669417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: long pants turn icon
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 42
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a910f6e648ba7e00800000000000000
+      internalID: 1043348878351407523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

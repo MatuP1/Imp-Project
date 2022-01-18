@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
     private int indiceEscena;
+    private GameObject tutorial;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +22,8 @@ public class SceneController : MonoBehaviour
 
     public void changeScene(int index) {
         SceneManager.LoadScene(index);
+    }
+    public void summonTutorial() {
+        
     }
 }

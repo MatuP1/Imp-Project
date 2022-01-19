@@ -13,7 +13,7 @@ TextureImporter:
     second: life icon
   - first:
       213: 6919829427374467131
-    second: Hells Office - Atlas Menu Battle_3
+    second: Full HP
   - first:
       213: 5183754197858032169
     second: attack selected
@@ -22,7 +22,7 @@ TextureImporter:
     second: mana icon
   - first:
       213: 8060379021916025239
-    second: Hells Office - Atlas Menu Battle_6
+    second: Full MP
   - first:
       213: 1480333887516464523
     second: short pants turn icon
@@ -52,10 +52,10 @@ TextureImporter:
     second: items selected
   - first:
       213: -2436385226058300999
-    second: Hells Office - Atlas Menu Battle_16
+    second: Empty HP
   - first:
       213: -4779575202700442495
-    second: Hells Office - Atlas Menu Battle_17
+    second: Empty MP
   - first:
       213: -4750889746067094072
     second: Hells Office - Atlas Menu Battle_18
@@ -168,7 +168,7 @@ TextureImporter:
         width: 242
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,13 +223,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hells Office - Atlas Menu Battle_3
+      name: Full HP
       rect:
         serializedVersion: 2
         x: 34
         y: 143
-        width: 64
-        height: 4
+        width: 32
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,7 +252,7 @@ TextureImporter:
         width: 44
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,12 +286,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hells Office - Atlas Menu Battle_6
+      name: Full MP
       rect:
         serializedVersion: 2
         x: 34
         y: 135
-        width: 64
+        width: 33
         height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -357,7 +357,7 @@ TextureImporter:
         width: 45
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,7 +378,7 @@ TextureImporter:
         width: 45
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,7 +399,7 @@ TextureImporter:
         width: 43
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -420,7 +420,7 @@ TextureImporter:
         width: 44
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -441,7 +441,7 @@ TextureImporter:
         width: 46
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -462,7 +462,7 @@ TextureImporter:
         width: 43
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -483,7 +483,7 @@ TextureImporter:
         width: 40
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -512,6 +512,48 @@ TextureImporter:
       bones: []
       spriteID: 3a910f6e648ba7e00800000000000000
       internalID: 1043348878351407523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty HP
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 143
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b109c0ab88303ed0800000000000000
+      internalID: -2436385226058300999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty MP
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 135
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18446c92da98badb0800000000000000
+      internalID: -4779575202700442495
       vertices: []
       indices: 
       edges: []

@@ -1,19 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class AudioController : MonoBehaviour
 {
-    public static float volume = 1f;
-    private AudioSource audioSource;
-
-    private void Start() {
-        audioSource = GetComponent<AudioSource>();
-    }
-    private void Update() {
-        audioSource.volume = volume;
-    }
+    public AudioMixer masterMixer;
     public void SetVolume (float vol) {
-        volume = vol;
+        masterMixer.SetFloat("MasterVolume",Mathf.Log10(vol) * 20);
     }
 }

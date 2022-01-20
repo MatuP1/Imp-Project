@@ -16,4 +16,12 @@ public class Unit : MonoBehaviour
     public int damage;
     public int defense;
     public int speed;
+
+    public bool TakeDamage(int dmg)
+    {
+        currentLife -= dmg;
+        return currentLife <= 0;
+
+        
+    }
 }
